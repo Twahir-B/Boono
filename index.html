@@ -251,15 +251,15 @@
 
         @media (max-width: 480px) {
             h1 {
-                font-size: 1.75rem;
+                font-size: 1.5rem; /* Smaller heading for mobile */
             }
 
             h2 {
-                font-size: 1.5rem;
+                font-size: 1.25rem; /* Smaller heading for mobile */
             }
 
             h3 {
-                font-size: 1.1rem;
+                font-size: 1rem; /* Smaller heading for mobile */
             }
 
             p {
@@ -271,7 +271,10 @@
             }
 
             table {
-                font-size: 0.85rem;
+                font-size: 0.8rem; /* Smaller font size for tables */
+                display: block;
+                overflow-x: auto; /* Make tables horizontally scrollable */
+                white-space: nowrap; /* Prevent table cells from wrapping */
             }
 
             th, td {
